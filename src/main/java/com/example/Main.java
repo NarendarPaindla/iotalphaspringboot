@@ -9,9 +9,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("Starting Spring Boot Application...");
-		ConfigurableApplicationContext context=SpringApplication.run(Main.class, args);
-		Student st1=context.getBean(Student.class);
-		st1.show();
+		SpringApplication.run(Main.class, args);
+	
 	}
 
 }
